@@ -8,6 +8,7 @@ public class Controller {
 
     @GetMapping("/version")
     public String version(){
+        System.out.println("테스트1회");
         return "v1";
     }
 }
